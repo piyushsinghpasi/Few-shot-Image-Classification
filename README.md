@@ -1,7 +1,10 @@
 ## Group-Name: 69-Friday
 
 ## Few Shot Learning(FSL)
-We implement few shot learning for image classification and perform analysis on it. More details in the reflection essay.
+We implement few shot learning for image classification and perform analysis on it. More details in the report.pdf.
+
+## Model Architecture
+![Model architecture](./Slides_n_Video/FSL_model_arch.png)
 
 ## References:   <br>
 a. https://towardsdatascience.com/few-shot-learning-with-prototypical-networks-87949de03ccd?gi=7937389e2697 <br>
