@@ -27,10 +27,10 @@ i. https://github.com/YapengTian/AVVP-ECCV20/blob/master/nets/net_audiovisual.py
 ## Code base link : [link](https://drive.google.com/drive/folders/1BJKLY5dsVoJpCBg1Ecw2XkI1pYf9skWa?usp=sharing)
 	   	
 **Guide how to run code on colab (use above code base):**
-1) Download i.pynb file shared from above code base link and also data set (as we can't share drive access to everyone).
+1) Download python notebook file shared from above code base link and also data set.
 2) Go to cell number 4 and change 'N=5' and 'K=5' and mode= 'test' or 'train' as per you aim 
    your cell no. 4 for training should look like ----> args = "--model-name [model_name] --N 5 --K 5 --mode [train|test]" look for help in argparser
-3) Finally go to runtime change it to 'GPU' and run all cells.
+3) Finally go to runtime change it to 'GPU' and run all cells. (CPU can be used but it's too slow for this change device='cpu' in train.py)
 
 **For running with terminal (use git code base)**
 
