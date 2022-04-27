@@ -1,9 +1,12 @@
 ## Group-Name: 69-Friday
 
 ## Few Shot Learning(FSL)
-We implement few shot learning for image classification and perform analysis on it. More details in the report.pdf.
+We implement few shot learning for image classification and perform analysis on it. 
+FSL is implemented on Caltech-UCSD Birds-200-2011 dataset:[link](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html)
+We vary N and K for N-way K-shot model to test the effect of N and K on our model architecture. More details in the report.pdf
 
 ## Model Architecture
+The model pipeline is designed by us and is an amalgamation of different techniques we have come acrosss.
 ![Model architecture](./Slides_n_Video/FSL_model_arch.png)
 
 ## References:   <br>
