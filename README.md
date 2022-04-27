@@ -30,7 +30,7 @@ i. https://github.com/YapengTian/AVVP-ECCV20/blob/master/nets/net_audiovisual.py
 1) Download python notebook file shared from above code base link and also data set.
 2) Go to cell number 4 and change 'N=5' and 'K=5' and mode= 'test' or 'train' as per you aim 
    your cell no. 4 for training should look like ----> args = "--model-name [model_name] --N 5 --K 5 --mode [train|test]" look for help in argparser
-3) Finally go to runtime change it to 'GPU' and run all cells. (CPU can be used but it's too slow for this change device='cpu' in train.py)
+3) Finally go to runtime change it to 'GPU' and run all cells. (CPU can be used but it's too slow, for CPU change device='cpu' in train.py)
 
 **For running with terminal (use git code base)**
 
