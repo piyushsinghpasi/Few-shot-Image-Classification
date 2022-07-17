@@ -12,6 +12,10 @@ import pickle
 
 class loadDataset():
     def __init__(self, txt_file, classes_path, image_dir, N, K, train_set):
+        '''
+        annotations.pkl and image_paths.pkl were created using following code and pickled to save time
+        currently located in ./utils directory
+        '''
         # self.txt_file= txt_file
         # DELIMITER = ' '
         # data = []
@@ -20,7 +24,7 @@ class loadDataset():
         #   for line in fr:
         #     first_col = line.split('{}'.format(DELIMITER))[1]
         #     data.append(first_col.strip())
-        # self.annotations = data
+        # self.annotations = data  # <-- annotations.pkl
         
         # with open(classes_path, 'r') as fp:
         #     lines= [line.rstrip() for line in fp]
@@ -30,7 +34,9 @@ class loadDataset():
         #     files= os.listdir(path)
         #     for j in os.scandir(path):
         #         imagenames.append(j.path)
-        # self.image_paths = imagenames
+        # self.image_paths = imagenames  # <-- image_paths.pkl
+        
+        
         with open('./drive/MyDrive/CV_Project/Code/utils/annotations.pkl','rb') as f:
           self.annotations = pickle.load(f)
         with open('./drive/MyDrive/CV_Project/Code/utils/image_paths.pkl','rb') as f:
