@@ -24,7 +24,7 @@ i. https://github.com/YapengTian/AVVP-ECCV20/blob/master/nets/net_audiovisual.py
  
 
 
-## Code base link : [link](https://drive.google.com/drive/folders/1BJKLY5dsVoJpCBg1Ecw2XkI1pYf9skWa?usp=sharing)
+## Code base link : [new link](https://drive.google.com/drive/folders/1BJKLY5dsVoJpCBg1Ecw2XkI1pYf9skWa?usp=sharing)
 	   	
 **Guide how to run code on colab (use above code base):**
 1) Download python notebook file shared from above code base link and also data set.
